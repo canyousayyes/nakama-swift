@@ -30,7 +30,7 @@ let package = Package(
     .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.10.1"),
     .package(url: "https://github.com/apple/swift-nio-transport-services.git", from: "1.9.1"),
     .package(name: "SwiftProtobuf", url: "https://github.com/apple/swift-protobuf.git", from: "1.9.0"),
-    .package(url: "https://github.com/grpc/grpc-swift.git", from: "1.0.0-alpha.22"),
+    .package(url: "https://github.com/grpc/grpc-swift.git", .exact("1.0.0-alpha.22")),
     .package(url: "https://github.com/apple/swift-atomics.git", from: "0.0.2")
   ],
   targets: [
